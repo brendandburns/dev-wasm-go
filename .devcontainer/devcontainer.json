@@ -17,4 +17,6 @@
 			"ms-vscode.cpptools",
 			"golang.Go"
 		]
+        }
     }
+}
