@@ -8,15 +8,13 @@
         "devwasm.azurecr.io/dev-wasm/dev-wasm-feature/wasmtime-wasi:0.0.4": {
             "version": "17"
         },
-        "ghcr.io/devcontainers/features/rust": {},
-	"devwasm.azurecr.io/dev-wasm/dev-wasm-feature/rust-wasi:0.0.1": {}
+        "ghcr.io/devcontainers/features/go": {},
+	"devwasm.azurecr.io/dev-wasm/dev-wasm-feature/golang-wasi:0.0.1": {}
     },
     "customizations": {
-	    "vscode": {
-		    "extensions": [
-			    "ms-vscode.cpptools",
-			    "golang.Go"
-		    ]
-        }
+	"vscode": {
+		"extensions": [
+			"ms-vscode.cpptools",
+			"golang.Go"
+		]
     }
-}
